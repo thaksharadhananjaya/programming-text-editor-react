@@ -1,38 +1,50 @@
 .App {
-  text-align: center;
+  font-family: "Outfit", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f6f2ff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #5328ff !important;
+  border-color: #5328ff !important;
+  border-width: 2px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-outline-primary {
+  color: #5328ff !important;
+  background-image: none !important;
+  border-color: #e560f1ee !important;
+  border-width: 2px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-outline-primary:hover {
+  color: #ffffff !important;
+  background-color: #e560f1ee !important;
+  border-color: #e560f1ee !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(119, 204, 204, 0.5);
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #5328ff !important;
+  background-color: transparent !important;
+}
+
+.navbar {
+  margin-bottom: 32px !important;
+}
+
+.nav-link{
+  font-weight: bold !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }

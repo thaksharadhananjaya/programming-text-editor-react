@@ -1,0 +1,34 @@
+* {
+  padding-left: 32px;
+  padding-right: 16px;
+}
+
+.home-banner-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+  font-size: 2.8rem;
+  line-height: normal;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.span-banner {
+  padding: 0;
+  background: linear-gradient(#e560f1ee, #5328ff);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.home-lottie {
+  height: 500px;
+}
+
+.img-icon {
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
